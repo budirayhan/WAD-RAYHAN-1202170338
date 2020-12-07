@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TAMPILAN HOME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="logoead.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="video">
+        <iframe width="350" height="250" src="https://www.youtube.com/embed/AwMeQJ_u73I" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="wrapper">
+        <div class="title">
+            Registrasi Data Pelanggan
+        </div>
+        <div class="form">
+            <div class="input_field">
+                <label>Nama</label>
+                <input type="text" class="input" placeholder="Nama anda...">
+            </div>
+            <div class="input_field">
+                <label>Nomor HP</label>
+                <input type="number" class="input">
+            </div>
+            <div class="input_field">
+                <label>Alamat</label>
+                <textarea type="text" class="input"></textarea>
+            </div>
+            <div class="input_field buy">
+                <label class="check">Pembayaran</label>
+                    <input type="radio" id="cash" name="pembayaran" value="cash">
+                    <label for="cash">Cash</label>
+                    <input type="radio" id="credit" name="pembayaran" value="pembayaran">
+                    <label for="credit">Credit</label>
+            </div>
+            <div class="input_field">
+                <label>Kategori</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="Komputer">Komputer</option>
+                        <option value="Keyboard">Keyboard</option>
+                        <option value="Mouse">Mouse</option>
+                    </select>
+                </div>
+            <div class="input_field">
+                <input type="submit" value="Kirim" class="btn">
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>

@@ -1,0 +1,8 @@
+.container{
+    margin-top: 10px;
+}
+
+.card-header{
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 119, 255) , rgb(2, 252, 65), rgb(251, 255, 0));
+}
